@@ -1,4 +1,4 @@
 import streamlit
 
-streamlit.header("parents DIner")
+Streamlit.header("parents DIner")
 Streamlit.text("Breakfast")
