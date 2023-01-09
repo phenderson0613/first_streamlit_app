@@ -1,5 +1,5 @@
 import streamlit
 
-Streamlit.title('Title Lunch')
-Streamlit.header('Header parents DIner')
-Streamlit.text('Text Breakfast')
+streamlit.title('Title Lunch')
+streamlit.header('Header parents DIner')
+streamlit.text('Text Breakfast')
