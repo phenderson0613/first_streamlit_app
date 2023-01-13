@@ -1,2 +1,4 @@
-#requirements.txt
+# requirements.txt
+
 snowflake-connector-python
+psycopg2-binary
