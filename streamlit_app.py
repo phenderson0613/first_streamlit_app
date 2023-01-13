@@ -42,7 +42,7 @@ add_my_fruit = streamlit.text_input('What fruit would you like to add?','Jackfru
 streamlit.write('The user entered ', add_my_fruit)
 
 my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
-#my_cur = my_cnx.cursor()
+my_cur = my_cnx.cursor()
 #my_cur.execute("select * from fruit_load_list")
 #my_data_row = my_cur.fetchall()
 #streamlit.header("Fruit List")
